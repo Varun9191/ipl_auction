@@ -3,41 +3,31 @@
     "id": "CSK",
     "name": "Chennai Super Kings",
     "color": "#F5A623",
-    "budget": 110,
-    "players": [
-      {
-        "id": "p_m1_9",
-        "name": "Glenn Maxwell",
-        "role": "All-Rounder",
-        "soldPrice": 10,
-        "rating": 8.8,
-        "country": "Australia"
-      }
-    ],
+    "budget": 120,
+    "players": [],
     "password": "csk@2025"
   },
   {
     "id": "MI",
     "name": "Mumbai Indians",
     "color": "#005DA0",
-    "budget": 110,
-    "players": [
-      {
-        "id": "p_m1_12",
-        "name": "Shubman Gill",
-        "role": "Batter",
-        "soldPrice": 10,
-        "rating": 9.5,
-        "country": "India"
-      }
-    ],
+    "budget": 120,
+    "players": [],
     "password": "mi@2025"
   },
   {
     "id": "RCB",
     "name": "Royal Challengers Bangalore",
     "color": "#D4122C",
-    "budget": 54,
+    "budget": 120,
+    "players": [],
+    "password": "rcb@2025"
+  },
+  {
+    "id": "KKR",
+    "name": "Kolkata Knight Riders",
+    "color": "#3A225D",
+    "budget": 108,
     "players": [
       {
         "id": "p_m1_1",
@@ -45,74 +35,10 @@
         "role": "Batter",
         "soldPrice": 12,
         "rating": 9.7,
-        "country": "India"
-      },
-      {
-        "id": "p_al5_136",
-        "name": "Kartik Tyagi",
-        "role": "Bowler",
-        "soldPrice": 1,
-        "rating": 8.3,
-        "country": "India"
-      },
-      {
-        "id": "p_m1_2",
-        "name": "Jos Buttler",
-        "role": "Wicketkeeper",
-        "soldPrice": 12,
-        "rating": 9.5,
-        "country": "England"
-      },
-      {
-        "id": "p_m1_3",
-        "name": "Mitchell Starc",
-        "role": "Bowler",
-        "soldPrice": 12,
-        "rating": 9.2,
-        "country": "Australia"
-      },
-      {
-        "id": "p_m1_4",
-        "name": "Rishabh Pant",
-        "role": "Wicketkeeper",
-        "soldPrice": 12,
-        "rating": 9.2,
-        "country": "India"
-      },
-      {
-        "id": "p_m1_6",
-        "name": "Hardik Pandya",
-        "role": "All-Rounder",
-        "soldPrice": 1,
-        "rating": 9.3,
-        "country": "India"
-      },
-      {
-        "id": "p_m1_10",
-        "name": "Andre Russell",
-        "role": "All-Rounder",
-        "soldPrice": 1,
-        "rating": 9.1,
-        "country": "West Indies"
-      },
-      {
-        "id": "p_m1_15",
-        "name": "Trent Boult",
-        "role": "Bowler",
-        "soldPrice": 15,
-        "rating": 9.1,
-        "country": "New Zealand",
-        "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Trent%20Boult.png"
+        "country": "India",
+        "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Virat%20Kohli.png"
       }
     ],
-    "password": "rcb@2025"
-  },
-  {
-    "id": "KKR",
-    "name": "Kolkata Knight Riders",
-    "color": "#3A225D",
-    "budget": 120,
-    "players": [],
     "password": "kkr@2025"
   },
   {

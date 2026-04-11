@@ -1,5 +1,7 @@
 const express = require('express');
 const http    = require('http');
+const path    = require('path');
+const fs      = require('fs');
 const { Server } = require('socket.io');
 const cors    = require('cors');
 const { registerHandlers } = require('./socketHandlers');
@@ -25,8 +27,22 @@ const io     = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (_req, res) => res.send('⚡ IPL Auction Backend is LIVE and Connected! 📡'));
 app.get('/health', (_req, res) => res.json({ status: 'ok' }));
+
+const clientDist = path.join(__dirname, '..', 'client', 'dist');
+const indexHtml  = path.join(clientDist, 'index.html');
+const hasSpa     = fs.existsSync(indexHtml);
+
+if (hasSpa) {
+  app.use(express.static(clientDist));
+  app.use((req, res, next) => {
+    if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+    if (req.path.startsWith('/socket.io')) return next();
+    res.sendFile(indexHtml, (err) => (err ? next(err) : undefined));
+  });
+} else {
+  app.get('/', (_req, res) => res.send('⚡ IPL Auction Backend is LIVE and Connected! 📡'));
+}
 
 io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);

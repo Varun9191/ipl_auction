@@ -10,7 +10,7 @@
       "rating": 9.7,
       "status": "sold",
       "soldPrice": 12,
-      "team": "RCB",
+      "team": "KKR",
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Virat%20Kohli.png"
     },
     {
@@ -34,9 +34,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.2,
-      "status": "sold",
-      "soldPrice": 12,
-      "team": "RCB",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mitchell%20Starc.png"
     },
     {
@@ -47,9 +47,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.2,
-      "status": "sold",
-      "soldPrice": 12,
-      "team": "RCB",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rishabh%20Pant.png"
     },
     {
@@ -73,9 +73,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.3,
-      "status": "sold",
-      "soldPrice": 1,
-      "team": "RCB",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hardik%20Pandya.png"
     },
     {
@@ -112,9 +112,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 8.8,
-      "status": "sold",
-      "soldPrice": 10,
-      "team": "CSK",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Glenn%20Maxwell.png"
     },
     {
@@ -125,9 +125,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.1,
-      "status": "sold",
-      "soldPrice": 1,
-      "team": "RCB",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Andre%20Russell.png"
     },
     {
@@ -151,9 +151,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.5,
-      "status": "sold",
-      "soldPrice": 10,
-      "team": "MI",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shubman%20Gill.png"
     },
     {
@@ -190,9 +190,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.1,
-      "status": "sold",
-      "soldPrice": 15,
-      "team": "RCB",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Trent%20Boult.png"
     }
   ],
@@ -1757,9 +1757,9 @@
       "basePrice": 0.5,
       "category": "Capped",
       "rating": 8.3,
-      "status": "sold",
-      "soldPrice": 1,
-      "team": "RCB",
+      "status": "available",
+      "soldPrice": null,
+      "team": null,
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png"
     },
     {
