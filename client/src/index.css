@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap');
+
+:root {
+  --bg-color: #0b0f19;
+  --bg-secondary: #141b2d;
+  --bg-tertiary: rgba(255, 255, 255, 0.05);
+  
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-accent: #38bdf8;
+  
+  --accent-color: #e11d48;
+  --accent-hover: #be123c;
+  
+  --sold-color: #22c55e;
+  --unsold-color: #ef4444;
+
+  --border-radius-lg: 16px;
+  --border-radius-md: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #38bdf8 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Utils */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-panel {
+  background: rgba(20, 27, 45, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius-md);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary { background-color: var(--accent-color); }
+.btn-primary:hover { background-color: var(--accent-hover); transform: translateY(-2px); }
+
+.btn-secondary { background-color: var(--bg-tertiary); }
+.btn-secondary:hover { background-color: rgba(255, 255, 255, 0.1); }
+
+.btn-sold { background-color: var(--sold-color); }
+.btn-sold:hover { background-color: #16a34a; transform: translateY(-2px); box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); }
+
+.btn-unsold { background-color: var(--unsold-color); }
+.btn-unsold:hover { background-color: #dc2626; transform: translateY(-2px); }
+
+input[type="number"], select {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-md);
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input[type="number"]:focus, select:focus {
+  border-color: var(--text-accent);
+}
+
+/* Animations */
+@keyframes pop-in {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slide-up {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes stamp {
+  0% { opacity: 0; transform: scale(3) rotate(-15deg); }
+  50% { opacity: 1; transform: scale(0.9) rotate(-15deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-15deg); }
+}
+
+.animate-pop-in { animation: pop-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+.animate-slide-up { animation: slide-up 0.4s ease-out forwards; }
+.sold-stamp {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--sold-color);
+  border: 6px solid var(--sold-color);
+  padding: 0.5rem 2rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  z-index: 10;
+  animation: stamp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  pointer-events: none;
+  text-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+  box-shadow: inset 0 0 20px rgba(34, 197, 94, 0.3), 0 0 20px rgba(34, 197, 94, 0.3);
+}
+
+.unsold-stamp {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--unsold-color);
+  border: 6px solid var(--unsold-color);
+  padding: 0.5rem 2rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  z-index: 10;
+  animation: stamp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  pointer-events: none;
+}
