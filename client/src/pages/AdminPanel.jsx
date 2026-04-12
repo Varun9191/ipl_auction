@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { socket } from '../socket';
-import { Users, Gavel, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
+import { Users, Gavel, CheckCircle, XCircle, RotateCcw, UserX, User } from 'lucide-react';
 
 export default function AdminPanel() {
   const [sets, setSets] = useState({});
@@ -47,12 +47,20 @@ export default function AdminPanel() {
 
   const handleSell = () => {
     if (!soldPrice || !selectedTeam) return;
+    const finalPrice = Number(soldPrice);
+    const team = teams.find(t => t.id === selectedTeam);
+    
+    if (team && team.budget < finalPrice) {
+      alert(`⚠️ INSUFFICIENT BUDGET!\n${team.name} only has ${team.budget} Cr remaining.`);
+      return;
+    }
+
     socket.emit('update-player', {
       action: 'SELL_PLAYER',
       setId: state.currentSet,
       playerId: state.currentPlayer,
       teamId: selectedTeam,
-      soldPrice: Number(soldPrice)
+      soldPrice: finalPrice
     });
     setSoldPrice('');
   };
@@ -94,9 +102,24 @@ export default function AdminPanel() {
         <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0 }}>
           <Gavel /> Auctioneer Control Panel
         </h1>
-        <button className="btn btn-secondary" style={{ background: '#dc3545', borderColor: '#dc3545', display: 'flex', alignItems: 'center', gap: '0.5rem' }} onClick={handleReset}>
-          <RotateCcw size={18} /> Restart Auction
-        </button>
+        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          {state.lastSale && (
+            <button 
+              className="btn btn-secondary animate-pulse" 
+              style={{ background: 'var(--sold-color)', borderColor: 'var(--sold-color)', color: 'white', display: 'flex', alignItems: 'center', gap: '0.5rem' }} 
+              onClick={() => {
+                if (window.confirm("⏪ Undo the last sale and refund the team?")) {
+                  socket.emit('update-player', { action: 'UNDO_SALE' });
+                }
+              }}
+            >
+              <RotateCcw size={18} /> Undo Last Sale
+            </button>
+          )}
+          <button className="btn btn-secondary" style={{ background: '#dc3545', borderColor: '#dc3545', display: 'flex', alignItems: 'center', gap: '0.5rem' }} onClick={handleReset}>
+            <RotateCcw size={18} /> Restart Auction
+          </button>
+        </div>
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
@@ -112,8 +135,8 @@ export default function AdminPanel() {
               </select>
               <select value={selectedPlayerInput} onChange={(e) => setSelectedPlayerInput(e.target.value)} disabled={!selectedSetInput}>
                 <option value="">-- Select Player --</option>
-                {(sets[selectedSetInput] || []).filter(p => p.status === 'available').map(p => (
-                  <option key={p.id} value={p.id}>{p.name} ({p.role})</option>
+                {(sets[selectedSetInput] || []).filter(p => p.status === 'available' || p.status === 'unsold').map(p => (
+                  <option key={p.id} value={p.id}>{p.name} ({p.role}){p.status === 'unsold' ? ' [UNSOLD]' : ''}</option>
                 ))}
               </select>
             </div>
@@ -145,7 +168,7 @@ export default function AdminPanel() {
                 </div>
               </div>
 
-              {activePlayerObj.status === 'available' && (
+              {(activePlayerObj.status === 'available' || activePlayerObj.status === 'unsold') && (
                 <div style={{ marginTop: '1.5rem', padding: '1rem', background: 'var(--bg-color)', borderRadius: '8px' }}>
                   <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
                     <input type="number" placeholder="Sold Price (Crores)" value={soldPrice} onChange={e => setSoldPrice(e.target.value)} step="0.01" />
@@ -164,7 +187,7 @@ export default function AdminPanel() {
                   </div>
                 </div>
               )}
-              {activePlayerObj.status !== 'available' && (
+              {(activePlayerObj.status !== 'available' && activePlayerObj.status !== 'unsold') && (
                   <div style={{ marginTop: '1.5rem' }}>
                     <button className="btn btn-secondary" onClick={handleClear}>Clear Projector Screen</button>
                   </div>
@@ -200,6 +223,49 @@ export default function AdminPanel() {
                 })}
               </div>
             )}
+          </div>
+
+          {/* Unsold Pool Section for Re-Auction */}
+          <div className="glass-panel" style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <h3 style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--unsold-color)' }}>
+              <UserX /> Unsold Pool (Re-Auction)
+            </h3>
+            <div style={{ overflowY: 'auto', flex: 1, display: 'flex', flexDirection: 'column', gap: '0.8rem', maxHeight: '500px' }}>
+              {Object.keys(sets).flatMap(setId => sets[setId].map(p => ({ ...p, setId })))
+                .filter(p => p.status === 'unsold')
+                .length === 0 ? (
+                  <p style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '2rem 0' }}>No players in unsold pool.</p>
+                ) : (
+                  Object.keys(sets).flatMap(setId => sets[setId].map(p => ({ ...p, setId })))
+                    .filter(p => p.status === 'unsold')
+                    .map(player => (
+                      <div key={player.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--bg-secondary)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                        <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
+                         <div style={{ width: '32px', height: '32px', background: 'var(--bg-color)', borderRadius: '50%', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            {player.image ? <img src={player.image} style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <User size={16} opacity={0.3} />}
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>{player.name}</div>
+                            <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Set {player.setId} • {player.basePrice} Cr</div>
+                          </div>
+                        </div>
+                        <button 
+                          className="btn btn-primary" 
+                          style={{ padding: '0.3rem 0.6rem', fontSize: '0.75rem' }} 
+                          onClick={() => {
+                            socket.emit('update-player', {
+                              action: 'SELECT_PLAYER',
+                              setId: player.setId,
+                              playerId: player.id
+                            });
+                          }}
+                        >
+                          Re-Auction
+                        </button>
+                      </div>
+                    ))
+                )}
+            </div>
           </div>
         </div>
 

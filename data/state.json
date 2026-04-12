@@ -1,5 +1,11 @@
 {
-  "currentSet": "M1",
-  "currentPlayer": "p_m1_1",
-  "playerRequests": []
+  "currentSet": "AL1",
+  "currentPlayer": "p_al1_91",
+  "playerRequests": [],
+  "lastSale": {
+    "setId": "AL1",
+    "playerId": "p_al1_91",
+    "teamId": "RCB",
+    "soldPrice": 12
+  }
 }

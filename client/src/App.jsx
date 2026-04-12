@@ -6,6 +6,7 @@ import TeamDashboard from './pages/TeamDashboard';
 import Login from './pages/Login';
 import ProtectedRoute from './components/ProtectedRoute';
 import SquadSummary from './pages/SquadSummary';
+import UnsoldPlayers from './pages/UnsoldPlayers';
 
 function Home() {
   const navigate = useNavigate();
@@ -30,6 +31,9 @@ function Home() {
           </Link>
           <Link to="/squads" className="btn btn-primary" style={{ textDecoration: 'none', padding: '1rem 2rem', fontSize: '1.2rem', background: 'var(--bg-secondary)', border: '1px solid var(--accent-color)' }}>
             📊 All Squads & Purse
+          </Link>
+          <Link to="/unsold" className="btn btn-primary" style={{ textDecoration: 'none', padding: '1rem 2rem', fontSize: '1.2rem', background: 'var(--bg-secondary)', border: '1px solid var(--accent-color)' }}>
+            🛍️ Unsold Players
           </Link>
           <button onClick={() => handleAuthLink('/admin', 'admin')} className="btn btn-secondary" style={{ padding: '1rem 2rem', fontSize: '1.2rem' }}>
             🛡️ Auctioneer Admin
@@ -73,6 +77,7 @@ function App() {
         />
         <Route path="/display" element={<DisplayScreen />} />
         <Route path="/squads" element={<SquadSummary />} />
+        <Route path="/unsold" element={<UnsoldPlayers />} />
         <Route 
           path="/team/:teamId" 
           element={

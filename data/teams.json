@@ -11,24 +11,35 @@
     "id": "MI",
     "name": "Mumbai Indians",
     "color": "#005DA0",
-    "budget": 120,
-    "players": [],
+    "budget": 110,
+    "players": [
+      {
+        "id": "p_m1_13",
+        "name": "Yashasvi Jaiswal",
+        "role": "Batter",
+        "soldPrice": 10,
+        "rating": 9.4,
+        "country": "India",
+        "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yashasvi%20Jaiswal.png"
+      }
+    ],
     "password": "mi@2025"
   },
   {
     "id": "RCB",
     "name": "Royal Challengers Bangalore",
     "color": "#D4122C",
-    "budget": 120,
-    "players": [],
-    "password": "rcb@2025"
-  },
-  {
-    "id": "KKR",
-    "name": "Kolkata Knight Riders",
-    "color": "#3A225D",
-    "budget": 108,
+    "budget": 72,
     "players": [
+      {
+        "id": "p_m1_2",
+        "name": "Jos Buttler",
+        "role": "Wicketkeeper",
+        "soldPrice": 12,
+        "rating": 9.5,
+        "country": "England",
+        "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jos%20Buttler.png"
+      },
       {
         "id": "p_m1_1",
         "name": "Virat Kohli",
@@ -37,8 +48,34 @@
         "rating": 9.7,
         "country": "India",
         "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Virat%20Kohli.png"
+      },
+      {
+        "id": "p_ba1_31",
+        "name": "Ruturaj Gaikwad",
+        "role": "Batter",
+        "soldPrice": 12,
+        "rating": 9.1,
+        "country": "India",
+        "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ruturaj%20Gaikwad.png"
+      },
+      {
+        "id": "p_al1_91",
+        "name": "Shivam Dube",
+        "role": "All-Rounder",
+        "soldPrice": 12,
+        "rating": 8.8,
+        "country": "India",
+        "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shivam%20Dube.png"
       }
     ],
+    "password": "rcb@2025"
+  },
+  {
+    "id": "KKR",
+    "name": "Kolkata Knight Riders",
+    "color": "#3A225D",
+    "budget": 120,
+    "players": [],
     "password": "kkr@2025"
   },
   {

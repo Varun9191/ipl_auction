@@ -10,7 +10,7 @@
       "rating": 9.7,
       "status": "sold",
       "soldPrice": 12,
-      "team": "KKR",
+      "team": "RCB",
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Virat%20Kohli.png"
     },
     {
@@ -21,9 +21,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.5,
-      "status": "available",
-      "soldPrice": null,
-      "team": null,
+      "status": "sold",
+      "soldPrice": 12,
+      "team": "RCB",
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jos%20Buttler.png"
     },
     {
@@ -164,9 +164,9 @@
       "basePrice": 2,
       "category": "Capped",
       "rating": 9.4,
-      "status": "available",
-      "soldPrice": null,
-      "team": null,
+      "status": "sold",
+      "soldPrice": 10,
+      "team": "MI",
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yashasvi%20Jaiswal.png"
     },
     {
@@ -402,9 +402,9 @@
       "basePrice": 1.5,
       "category": "Capped",
       "rating": 9.1,
-      "status": "available",
-      "soldPrice": null,
-      "team": null,
+      "status": "sold",
+      "soldPrice": 12,
+      "team": "RCB",
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ruturaj%20Gaikwad.png"
     },
     {
@@ -1164,9 +1164,9 @@
       "basePrice": 1,
       "category": "Capped",
       "rating": 8.8,
-      "status": "available",
-      "soldPrice": null,
-      "team": null,
+      "status": "sold",
+      "soldPrice": 12,
+      "team": "RCB",
       "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shivam%20Dube.png"
     },
     {

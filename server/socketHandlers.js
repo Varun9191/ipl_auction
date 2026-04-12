@@ -52,6 +52,10 @@ function registerHandlers(io, socket) {
         const player = set?.find(p => p.id === payload.playerId);
         const team   = teams.find(t => t.id === payload.teamId);
         if (player && team) {
+          if (team.budget < payload.soldPrice) {
+            console.log(`❌ Sale failed: ${team.name} has insufficient budget (${team.budget} Cr) for ${player.name} (${payload.soldPrice} Cr)`);
+            return;
+          }
           player.status    = 'sold';
           player.soldPrice = payload.soldPrice;
           player.team      = payload.teamId;
@@ -62,10 +66,48 @@ function registerHandlers(io, socket) {
             rating: player.rating, country: player.country,
             image: player.image
           });
+
+          // Track for UNDO
+          state.lastSale = {
+            setId: payload.setId,
+            playerId: payload.playerId,
+            teamId: payload.teamId,
+            soldPrice: payload.soldPrice
+          };
         }
         state.currentSet    = payload.setId;
         state.currentPlayer = payload.playerId;
         event = 'PLAYER_SOLD';
+        break;
+      }
+
+      case 'UNDO_SALE': {
+        if (!state.lastSale) return;
+        const { setId, playerId, teamId, soldPrice } = state.lastSale;
+        const set    = players[setId];
+        const player = set?.find(p => p.id === playerId);
+        const team   = teams.find(t => t.id === teamId);
+
+        if (player && team) {
+          // Revert player status
+          player.status = 'available';
+          player.soldPrice = null;
+          player.team = null;
+
+          // Refund team
+          team.budget += soldPrice;
+          
+          // Remove from team players list
+          team.players = team.players.filter(p => p.id !== playerId);
+          
+          // Set back as current player for convenience
+          state.currentSet = setId;
+          state.currentPlayer = playerId;
+          
+          state.lastSale = null;
+          event = 'SALE_UNDONE';
+          console.log(`⏪ Undo successful: ${player.name} returned from ${team.name}`);
+        }
         break;
       }
 
@@ -77,6 +119,7 @@ function registerHandlers(io, socket) {
         }
         state.currentSet    = payload.setId;
         state.currentPlayer = payload.playerId;
+        state.lastSale      = null; // Clear undo if we mark someone as unsold
         event = 'PLAYER_UNSOLD';
         break;
       }
@@ -94,6 +137,7 @@ function registerHandlers(io, socket) {
           state.currentSet    = req.setId;
           state.currentPlayer = req.playerId;
           state.playerRequests = state.playerRequests.filter(r => r.id !== payload.requestId);
+          state.lastSale      = null;
           event = 'PLAYER_SELECTED';
         }
         break;
@@ -123,6 +167,7 @@ function registerHandlers(io, socket) {
         state.currentSet = null;
         state.currentPlayer = null;
         state.playerRequests = [];
+        state.lastSale = null;
         event = 'AUCTION_RESET';
         break;
       }

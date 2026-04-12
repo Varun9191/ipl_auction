@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { socket } from '../socket';
+import { UserX, Send, CheckCircle, Info, User, Sword, Target, Zap, Shield } from 'lucide-react';
 import SquadSummary from './SquadSummary';
 
 export default function TeamDashboard() {
@@ -120,8 +121,8 @@ export default function TeamDashboard() {
             
             <select value={reqPlayer} onChange={(e) => setReqPlayer(e.target.value)} disabled={!reqSet}>
               <option value="">-- Select Player --</option>
-              {(sets[reqSet] || []).filter(p => p.status === 'available').map(p => (
-                <option key={p.id} value={p.id}>{p.name} ({p.role}) - Base: {p.basePrice} Cr</option>
+              {(sets[reqSet] || []).filter(p => p.status === 'available' || p.status === 'unsold').map(p => (
+                <option key={p.id} value={p.id}>{p.name} ({p.role}){p.status === 'unsold' ? ' [UNSOLD]' : ''} - Base: {p.basePrice} Cr</option>
               ))}
             </select>
 
@@ -131,10 +132,58 @@ export default function TeamDashboard() {
           </div>
 
             {playerRequests.some(r => r.teamId === teamId) && (
-              <div style={{ marginTop: '2rem', padding: '1rem', background: 'var(--bg-secondary)', borderRadius: '8px' }}>
-                <p style={{ color: 'var(--text-accent)', fontWeight: 'bold' }}>You have a pending request!</p>
+              <div style={{ marginTop: '2rem', padding: '1rem', background: 'var(--bg-secondary)', borderRadius: '8px', border: '1px solid var(--accent-color)', display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+                <CheckCircle size={18} color="var(--accent-color)" />
+                <p style={{ color: 'var(--text-accent)', fontWeight: 'bold', margin: 0 }}>You have a pending request!</p>
               </div>
             )}
+          </div>
+
+          {/* Unsold Pool Section */}
+          <div className="glass-panel" style={{ padding: '2rem' }}>
+            <h2 style={{ marginBottom: '1rem', fontSize: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <UserX size={20} /> Unsold Pool
+            </h2>
+            <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem', fontSize: '0.9rem' }}>Recently skipped players. Request them to bring them back.</p>
+            
+            <div style={{ maxHeight: '400px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.8rem', paddingRight: '0.5rem' }}>
+              {Object.keys(sets).flatMap(setId => sets[setId])
+                .filter(p => p.status === 'unsold')
+                .length === 0 ? (
+                  <p style={{ textAlign: 'center', opacity: 0.5, padding: '2rem 0' }}>Pool is empty</p>
+                ) : (
+                  Object.keys(sets).flatMap(setId => sets[setId].map(p => ({ ...p, setId })))
+                    .filter(p => p.status === 'unsold')
+                    .map(player => (
+                      <div key={player.id} style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '1px solid rgba(255,255,255,0.05)' }}>
+                        <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
+                          <div style={{ width: '32px', height: '32px', background: 'var(--bg-secondary)', borderRadius: '50%', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            {player.image ? <img src={player.image} style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <User size={16} opacity={0.3} />}
+                          </div>
+                          <div>
+                            <div style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>{player.name}</div>
+                            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Set {player.setId} • {player.role}</div>
+                          </div>
+                        </div>
+                        <button 
+                          className="btn btn-primary" 
+                          style={{ padding: '0.4rem 0.8rem', fontSize: '0.8rem' }}
+                          onClick={() => {
+                            socket.emit('request-player', {
+                              teamId,
+                              setId: player.setId,
+                              playerId: player.id,
+                              playerName: player.name
+                            });
+                            alert(`Request sent for ${player.name}!`);
+                          }}
+                        >
+                          Request
+                        </button>
+                      </div>
+                    ))
+                )}
+            </div>
           </div>
         </div>
 
@@ -146,26 +195,49 @@ export default function TeamDashboard() {
           {team.players.length === 0 ? (
             <p style={{ color: 'var(--text-secondary)' }}>No players acquired yet.</p>
           ) : (
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
-              {team.players.map(p => (
-                <div key={p.id} style={{ background: 'var(--bg-secondary)', padding: '1rem', borderRadius: '12px', borderLeft: `4px solid ${team.color}`, display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                  {p.image && (
-                    <img 
-                      src={p.image} 
-                      alt={p.name} 
-                      style={{ width: '50px', height: '50px', borderRadius: '50%', objectFit: 'cover', background: 'rgba(255,255,255,0.05)' }} 
-                      onError={(e) => e.target.style.display = 'none'}
-                    />
-                  )}
-                  <div style={{ flex: 1 }}>
-                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.1rem', lineHeight: '1.2' }}>
-                      {p.name} {p.country && p.country !== 'India' && <span title={p.country} style={{ cursor: 'help' }}>✈️</span>}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
+              {[
+                { label: 'Batters', role: 'Batter', icon: <Sword size={18} /> },
+                { label: 'Wicketkeepers', role: 'Wicketkeeper', icon: <Shield size={18} /> },
+                { label: 'All-Rounders', role: 'All-Rounder', icon: <Zap size={18} /> },
+                { label: 'Bowlers', role: 'Bowler', icon: <Target size={18} /> }
+              ].map(cat => {
+                const players = team.players.filter(p => p.role === cat.role);
+                if (players.length === 0) return null;
+                
+                return (
+                  <div key={cat.role}>
+                    <h3 style={{ fontSize: '1.2rem', color: 'var(--text-accent)', marginBottom: '1.2rem', display: 'flex', alignItems: 'center', gap: '0.6rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                      {cat.icon} {cat.label} ({players.length})
                     </h3>
-                    <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>{p.role}</p>
-                    <p style={{ fontSize: '1rem', fontWeight: 'bold', marginTop: '0.2rem', color: 'var(--text-accent)' }}>{p.soldPrice} Cr</p>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '1.2rem' }}>
+                      {players.map(p => (
+                        <div key={p.id} className="animate-pop-in" style={{ background: 'var(--bg-secondary)', padding: '1rem', borderRadius: '12px', borderLeft: `4px solid ${team.color}`, display: 'flex', gap: '1rem', alignItems: 'center', border: '1px solid rgba(255,255,255,0.05)' }}>
+                          <div style={{ width: '50px', height: '50px', borderRadius: '50%', overflow: 'hidden', background: 'rgba(255,255,255,0.05)', flexShrink: 0 }}>
+                            {p.image ? (
+                              <img 
+                                src={p.image} 
+                                alt={p.name} 
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                                onError={(e) => { e.target.style.display = 'none'; e.target.parentNode.innerHTML = '👤'; }}
+                              />
+                            ) : (
+                              <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: 0.2 }}><User size={24} /></div>
+                            )}
+                          </div>
+                          <div style={{ flex: 1, minWidth: 0 }}>
+                            <h4 style={{ fontSize: '1rem', marginBottom: '0.1rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                              {p.name} {p.country && p.country !== 'India' && <span title={p.country}>✈️</span>}
+                            </h4>
+                            <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{p.country}</p>
+                            <p style={{ fontSize: '1.1rem', fontWeight: '900', marginTop: '0.2rem', color: 'white' }}>{p.soldPrice} Cr</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>
