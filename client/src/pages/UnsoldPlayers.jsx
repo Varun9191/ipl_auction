@@ -95,7 +95,7 @@ export default function UnsoldPlayers() {
                       <MapPin size={14} /> {player.country}
                     </div>
                     <div style={{ background: 'rgba(251, 191, 36, 0.1)', color: '#fbbf24', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.8rem', border: '1px solid rgba(251, 191, 36, 0.2)' }}>
-                      ★ {player.rating}
+                      Pts: {player.recentSeasons > 0 ? Math.round(player.fantasyPoints / player.recentSeasons) : 0}
                     </div>
                   </div>
                   

@@ -84,12 +84,15 @@ export default function DisplayScreen() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ fontSize: '1.5rem', color: 'var(--text-secondary)' }}>Rating:</p>
-            <div style={{ display: 'flex', gap: '0.5rem' }}>
-              {Array.from({ length: Math.floor(activePlayer.rating) }).map((_, i) => (
-                <span key={i} style={{ color: '#fbbf24', fontSize: '2rem' }}>★</span>
-              ))}
-              <span style={{ color: 'white', fontSize: '2rem', fontWeight: 'bold', marginLeft: '0.5rem' }}>{activePlayer.rating}</span>
+            <p style={{ fontSize: '1.5rem', color: 'var(--text-secondary)' }}>Avg Fantasy Pts (2021-25):</p>
+            <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
+              <span style={{ color: '#fbbf24', fontSize: '2.5rem', fontWeight: '900' }}>
+                {activePlayer.recentSeasons > 0 ? Math.round(activePlayer.fantasyPoints / activePlayer.recentSeasons) : 0}
+              </span>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Per Season</span>
+                <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Total: {activePlayer.fantasyPoints} ({activePlayer.recentSeasons} yrs)</span>
+              </div>
             </div>
           </div>
         </div>

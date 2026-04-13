@@ -7,11 +7,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.7,
       "status": "sold",
       "soldPrice": 12,
       "team": "RCB",
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Virat%20Kohli.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Virat%20Kohli.png",
+      "fantasyPoints": 3250,
+      "recentSeasons": 4,
+      "oldRating": 9.7
     },
     {
       "id": "p_m1_2",
@@ -20,11 +22,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.5,
       "status": "sold",
       "soldPrice": 12,
       "team": "RCB",
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jos%20Buttler.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jos%20Buttler.png",
+      "fantasyPoints": 2800,
+      "recentSeasons": 4,
+      "oldRating": 9.5
     },
     {
       "id": "p_m1_3",
@@ -33,11 +37,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mitchell%20Starc.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mitchell%20Starc.png",
+      "fantasyPoints": 850,
+      "recentSeasons": 1,
+      "oldRating": 9.2
     },
     {
       "id": "p_m1_4",
@@ -46,11 +52,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rishabh%20Pant.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rishabh%20Pant.png",
+      "fantasyPoints": 1800,
+      "recentSeasons": 3,
+      "oldRating": 9.2
     },
     {
       "id": "p_m1_5",
@@ -59,11 +67,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rashid%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rashid%20Khan.png",
+      "fantasyPoints": 2400,
+      "recentSeasons": 4,
+      "oldRating": 9.7
     },
     {
       "id": "p_m1_6",
@@ -72,11 +82,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hardik%20Pandya.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hardik%20Pandya.png",
+      "fantasyPoints": 1950,
+      "recentSeasons": 4,
+      "oldRating": 9.3
     },
     {
       "id": "p_m1_7",
@@ -85,11 +97,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Suryakumar%20Yadav.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Suryakumar%20Yadav.png",
+      "fantasyPoints": 2200,
+      "recentSeasons": 4,
+      "oldRating": 9.6
     },
     {
       "id": "p_m1_8",
@@ -98,11 +112,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jasprit%20Bumrah.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jasprit%20Bumrah.png",
+      "fantasyPoints": 2100,
+      "recentSeasons": 3,
+      "oldRating": 9.8
     },
     {
       "id": "p_m1_9",
@@ -111,11 +127,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Glenn%20Maxwell.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Glenn%20Maxwell.png",
+      "fantasyPoints": 2150,
+      "recentSeasons": 4,
+      "oldRating": 8.8
     },
     {
       "id": "p_m1_10",
@@ -124,11 +142,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Andre%20Russell.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Andre%20Russell.png",
+      "fantasyPoints": 1900,
+      "recentSeasons": 4,
+      "oldRating": 9.1
     },
     {
       "id": "p_m1_11",
@@ -137,11 +157,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Cameron%20Green.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Cameron%20Green.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3171,
+      "oldRating": 8.9
     },
     {
       "id": "p_m1_12",
@@ -150,11 +172,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shubman%20Gill.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shubman%20Gill.png",
+      "fantasyPoints": 2900,
+      "recentSeasons": 4,
+      "oldRating": 9.5
     },
     {
       "id": "p_m1_13",
@@ -163,11 +187,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.4,
       "status": "sold",
       "soldPrice": 10,
       "team": "MI",
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yashasvi%20Jaiswal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yashasvi%20Jaiswal.png",
+      "fantasyPoints": 2300,
+      "recentSeasons": 4,
+      "oldRating": 9.4
     },
     {
       "id": "p_m1_14",
@@ -176,11 +202,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohammed%20Shami.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohammed%20Shami.png",
+      "fantasyPoints": 2200,
+      "recentSeasons": 3,
+      "oldRating": 9.3
     },
     {
       "id": "p_m1_15",
@@ -189,11 +217,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Trent%20Boult.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Trent%20Boult.png",
+      "fantasyPoints": 1950,
+      "recentSeasons": 4,
+      "oldRating": 9.1
     }
   ],
   "M2": [
@@ -204,11 +234,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rohit%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rohit%20Sharma.png",
+      "fantasyPoints": 2100,
+      "recentSeasons": 4,
+      "oldRating": 9
     },
     {
       "id": "p_m2_17",
@@ -217,11 +249,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KL%20Rahul.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KL%20Rahul.png",
+      "fantasyPoints": 2600,
+      "recentSeasons": 4,
+      "oldRating": 8.8
     },
     {
       "id": "p_m2_18",
@@ -230,11 +264,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kagiso%20Rabada.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kagiso%20Rabada.png",
+      "fantasyPoints": 1900,
+      "recentSeasons": 4,
+      "oldRating": 9
     },
     {
       "id": "p_m2_19",
@@ -243,11 +279,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yuzvendra%20Chahal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yuzvendra%20Chahal.png",
+      "fantasyPoints": 2400,
+      "recentSeasons": 4,
+      "oldRating": 9
     },
     {
       "id": "p_m2_20",
@@ -256,11 +294,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kuldeep%20Yadav.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kuldeep%20Yadav.png",
+      "fantasyPoints": 1850,
+      "recentSeasons": 4,
+      "oldRating": 8.9
     },
     {
       "id": "p_m2_21",
@@ -269,11 +309,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sanju%20Samson.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sanju%20Samson.png",
+      "fantasyPoints": 2500,
+      "recentSeasons": 4,
+      "oldRating": 9
     },
     {
       "id": "p_m2_22",
@@ -282,11 +324,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nicholas%20Pooran.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nicholas%20Pooran.png",
+      "fantasyPoints": 2100,
+      "recentSeasons": 4,
+      "oldRating": 9.1
     },
     {
       "id": "p_m2_23",
@@ -295,11 +339,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Devon%20Conway.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Devon%20Conway.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2986,
+      "oldRating": 8.9
     },
     {
       "id": "p_m2_24",
@@ -308,11 +354,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/David%20Warner.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/David%20Warner.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1875,
+      "oldRating": 8.8
     },
     {
       "id": "p_m2_25",
@@ -321,11 +369,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Faf%20du%20Plessis.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Faf%20du%20Plessis.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3031,
+      "oldRating": 8.7
     },
     {
       "id": "p_m2_26",
@@ -334,11 +384,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Liam%20Livingstone.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Liam%20Livingstone.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2506,
+      "oldRating": 8.7
     },
     {
       "id": "p_m2_27",
@@ -347,11 +399,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Marcus%20Stoinis.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Marcus%20Stoinis.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2880,
+      "oldRating": 8.5
     },
     {
       "id": "p_m2_28",
@@ -360,11 +414,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shreyas%20Iyer.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shreyas%20Iyer.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2744,
+      "oldRating": 8.9
     },
     {
       "id": "p_m2_29",
@@ -373,11 +429,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ishan%20Kishan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ishan%20Kishan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2835,
+      "oldRating": 8.7
     },
     {
       "id": "p_m2_30",
@@ -386,11 +444,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Heinrich%20Klaasen.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Heinrich%20Klaasen.png",
+      "fantasyPoints": 1950,
+      "recentSeasons": 2,
+      "oldRating": 9.3
     }
   ],
   "BA1": [
@@ -401,11 +461,13 @@
       "role": "Batter",
       "basePrice": 1.5,
       "category": "Capped",
-      "rating": 9.1,
       "status": "sold",
       "soldPrice": 12,
       "team": "RCB",
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ruturaj%20Gaikwad.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ruturaj%20Gaikwad.png",
+      "fantasyPoints": 2750,
+      "recentSeasons": 4,
+      "oldRating": 9.1
     },
     {
       "id": "p_ba1_32",
@@ -414,11 +476,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rinku%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rinku%20Singh.png",
+      "fantasyPoints": 1600,
+      "recentSeasons": 3,
+      "oldRating": 9
     },
     {
       "id": "p_ba1_33",
@@ -427,11 +491,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tilak%20Varma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tilak%20Varma.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2687,
+      "oldRating": 8.8
     },
     {
       "id": "p_ba1_34",
@@ -440,11 +506,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prithvi%20Shaw.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prithvi%20Shaw.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2646,
+      "oldRating": 8.2
     },
     {
       "id": "p_ba1_35",
@@ -453,11 +521,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Tripathi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Tripathi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2702,
+      "oldRating": 8.5
     },
     {
       "id": "p_ba1_36",
@@ -466,11 +536,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Devdutt%20Padikkal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Devdutt%20Padikkal.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2635,
+      "oldRating": 8.3
     },
     {
       "id": "p_ba1_37",
@@ -479,11 +551,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sai%20Sudharsan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sai%20Sudharsan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2732,
+      "oldRating": 8.8
     },
     {
       "id": "p_ba1_38",
@@ -492,11 +566,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mayank%20Agarwal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mayank%20Agarwal.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1705,
+      "oldRating": 8
     },
     {
       "id": "p_ba1_39",
@@ -505,11 +581,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ajinkya%20Rahane.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ajinkya%20Rahane.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2591,
+      "oldRating": 7.8
     },
     {
       "id": "p_ba1_40",
@@ -518,11 +596,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Manish%20Pandey.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Manish%20Pandey.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2463,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba1_41",
@@ -531,11 +611,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Harry%20Brook.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Harry%20Brook.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2434,
+      "oldRating": 8.6
     },
     {
       "id": "p_ba1_42",
@@ -544,11 +626,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Joe%20Root.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Joe%20Root.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2519,
+      "oldRating": 8.5
     },
     {
       "id": "p_ba1_43",
@@ -557,11 +641,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Steve%20Smith.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Steve%20Smith.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2995,
+      "oldRating": 8.7
     },
     {
       "id": "p_ba1_44",
@@ -570,11 +656,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kane%20Williamson.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kane%20Williamson.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2991,
+      "oldRating": 8.6
     },
     {
       "id": "p_ba1_45",
@@ -583,11 +671,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shimron%20Hetmyer.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shimron%20Hetmyer.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2609,
+      "oldRating": 8.8
     }
   ],
   "BA2": [
@@ -598,11 +688,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Glenn%20Phillips.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Glenn%20Phillips.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3026,
+      "oldRating": 8.6
     },
     {
       "id": "p_ba2_47",
@@ -611,11 +703,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Aiden%20Markram.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Aiden%20Markram.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3007,
+      "oldRating": 8.7
     },
     {
       "id": "p_ba2_48",
@@ -624,11 +718,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dawid%20Malan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dawid%20Malan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2778,
+      "oldRating": 8.4
     },
     {
       "id": "p_ba2_49",
@@ -637,11 +733,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Finn%20Allen.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Finn%20Allen.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2458,
+      "oldRating": 8.5
     },
     {
       "id": "p_ba2_50",
@@ -650,11 +748,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahmanullah%20Gurbaz.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahmanullah%20Gurbaz.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1983,
+      "oldRating": 8.4
     },
     {
       "id": "p_ba2_51",
@@ -663,11 +763,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajat%20Patidar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajat%20Patidar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2861,
+      "oldRating": 8.9
     },
     {
       "id": "p_ba2_52",
@@ -676,11 +778,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shahrukh%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shahrukh%20Khan.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2147,
+      "oldRating": 8.3
     },
     {
       "id": "p_ba2_53",
@@ -689,11 +793,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tim%20David.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tim%20David.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2580,
+      "oldRating": 8.6
     },
     {
       "id": "p_ba2_54",
@@ -702,11 +808,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dewald%20Brevis.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dewald%20Brevis.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2661,
+      "oldRating": 8.5
     },
     {
       "id": "p_ba2_55",
@@ -715,11 +823,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Will%20Jacks.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Will%20Jacks.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2676,
+      "oldRating": 8.6
     },
     {
       "id": "p_ba2_56",
@@ -728,11 +838,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rovman%20Powell.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rovman%20Powell.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2671,
+      "oldRating": 8.5
     },
     {
       "id": "p_ba2_57",
@@ -741,11 +853,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sherfane%20Rutherford.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sherfane%20Rutherford.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2846,
+      "oldRating": 8.3
     },
     {
       "id": "p_ba2_58",
@@ -754,11 +868,13 @@
       "role": "Batter",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jason%20Roy.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jason%20Roy.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2645,
+      "oldRating": 8.4
     }
   ],
   "BA3": [
@@ -769,11 +885,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tom%20Banton.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tom%20Banton.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2407,
+      "oldRating": 8.3
     },
     {
       "id": "p_ba3_62",
@@ -782,11 +900,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Laurie%20Evans.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Laurie%20Evans.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2484,
+      "oldRating": 8
     },
     {
       "id": "p_ba3_63",
@@ -795,11 +915,13 @@
       "role": "Batter",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Travis%20Head.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Travis%20Head.png",
+      "fantasyPoints": 950,
+      "recentSeasons": 1,
+      "oldRating": 9.2
     },
     {
       "id": "p_ba3_64",
@@ -808,11 +930,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mandeep%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mandeep%20Singh.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2371,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba3_65",
@@ -821,11 +945,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Karun%20Nair.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Karun%20Nair.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2529,
+      "oldRating": 7.4
     },
     {
       "id": "p_ba3_66",
@@ -834,11 +960,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KS%20Bharat.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KS%20Bharat.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2258,
+      "oldRating": 7.8
     },
     {
       "id": "p_ba3_67",
@@ -847,11 +975,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anuj%20Rawat.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anuj%20Rawat.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2467,
+      "oldRating": 7.6
     },
     {
       "id": "p_ba3_68",
@@ -860,11 +990,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abishek%20Porel.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abishek%20Porel.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2069,
+      "oldRating": 8.2
     },
     {
       "id": "p_ba3_69",
@@ -873,11 +1005,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Aryan%20Juyal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Aryan%20Juyal.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2340,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba3_70",
@@ -886,11 +1020,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sam%20Billings.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sam%20Billings.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1813,
+      "oldRating": 8
     },
     {
       "id": "p_ba3_71",
@@ -899,11 +1035,13 @@
       "role": "Wicketkeeper",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Phil%20Salt.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Phil%20Salt.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2984,
+      "oldRating": 8.7
     },
     {
       "id": "p_ba3_72",
@@ -912,11 +1050,13 @@
       "role": "Wicketkeeper",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Josh%20Inglis.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Josh%20Inglis.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2192,
+      "oldRating": 8.6
     },
     {
       "id": "p_ba3_73",
@@ -925,11 +1065,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Naman%20Dhir.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Naman%20Dhir.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2565,
+      "oldRating": 8.2
     },
     {
       "id": "p_ba3_74",
@@ -938,11 +1080,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ashutosh%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ashutosh%20Sharma.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2414,
+      "oldRating": 8.3
     },
     {
       "id": "p_ba3_75",
@@ -951,11 +1095,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nehal%20Wadhera.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nehal%20Wadhera.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2326,
+      "oldRating": 8.2
     }
   ],
   "BA4": [
@@ -966,11 +1112,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Dhull.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Dhull.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1865,
+      "oldRating": 7.7
     },
     {
       "id": "p_ba4_77",
@@ -979,11 +1127,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Priyam%20Garg.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Priyam%20Garg.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2638,
+      "oldRating": 7.6
     },
     {
       "id": "p_ba4_78",
@@ -992,11 +1142,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sarfaraz%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sarfaraz%20Khan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2607,
+      "oldRating": 7.8
     },
     {
       "id": "p_ba4_79",
@@ -1005,11 +1157,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anmolpreet%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anmolpreet%20Singh.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1659,
+      "oldRating": 7.6
     },
     {
       "id": "p_ba4_80",
@@ -1018,11 +1172,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Buddhi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Buddhi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2239,
+      "oldRating": 7.4
     },
     {
       "id": "p_ba4_81",
@@ -1031,11 +1187,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vishnu%20Vinod.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vishnu%20Vinod.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1629,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba4_82",
@@ -1044,11 +1202,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ramandeep%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ramandeep%20Singh.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2640,
+      "oldRating": 7.8
     },
     {
       "id": "p_ba4_83",
@@ -1057,11 +1217,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sameer%20Rizvi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sameer%20Rizvi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2541,
+      "oldRating": 8
     },
     {
       "id": "p_ba4_84",
@@ -1070,11 +1232,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tilak%20Raj.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tilak%20Raj.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2017,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba4_85",
@@ -1083,11 +1247,13 @@
       "role": "Batter",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abhinav%20Manohar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abhinav%20Manohar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2946,
+      "oldRating": 8.4
     },
     {
       "id": "p_ba4_86",
@@ -1096,11 +1262,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Angkrish%20Raghuvanshi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Angkrish%20Raghuvanshi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2871,
+      "oldRating": 8.1
     },
     {
       "id": "p_ba4_87",
@@ -1109,11 +1277,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Raj%20Bawa.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Raj%20Bawa.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2443,
+      "oldRating": 8
     },
     {
       "id": "p_ba4_88",
@@ -1122,11 +1292,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chirag%20Jani.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chirag%20Jani.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1825,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba4_89",
@@ -1135,11 +1307,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/R%20Samarth.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/R%20Samarth.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1985,
+      "oldRating": 7.5
     },
     {
       "id": "p_ba4_90",
@@ -1148,11 +1322,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Suyash%20Prabhudessai.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Suyash%20Prabhudessai.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2512,
+      "oldRating": 7.8
     }
   ],
   "AL1": [
@@ -1163,11 +1339,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.8,
       "status": "sold",
       "soldPrice": 12,
       "team": "RCB",
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shivam%20Dube.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shivam%20Dube.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2810,
+      "oldRating": 8.8
     },
     {
       "id": "p_al1_92",
@@ -1176,11 +1354,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abhishek%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abhishek%20Sharma.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2272,
+      "oldRating": 8.7
     },
     {
       "id": "p_al1_93",
@@ -1189,11 +1369,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rachin%20Ravindra.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rachin%20Ravindra.png",
+      "fantasyPoints": 550,
+      "recentSeasons": 1,
+      "oldRating": 8.8
     },
     {
       "id": "p_al1_94",
@@ -1202,11 +1384,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Washington%20Sundar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Washington%20Sundar.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2011,
+      "oldRating": 8.3
     },
     {
       "id": "p_al1_95",
@@ -1215,11 +1399,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Tewatia.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Tewatia.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2555,
+      "oldRating": 8.2
     },
     {
       "id": "p_al1_96",
@@ -1228,11 +1414,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nitish%20Kumar%20Reddy.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nitish%20Kumar%20Reddy.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2682,
+      "oldRating": 8.5
     },
     {
       "id": "p_al1_97",
@@ -1241,11 +1429,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Daryl%20Mitchell.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Daryl%20Mitchell.png",
+      "fantasyPoints": 1100,
+      "recentSeasons": 2,
+      "oldRating": 8.7
     },
     {
       "id": "p_al1_98",
@@ -1254,11 +1444,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jason%20Holder.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jason%20Holder.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2416,
+      "oldRating": 8.6
     },
     {
       "id": "p_al1_99",
@@ -1267,11 +1459,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chris%20Woakes.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chris%20Woakes.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2860,
+      "oldRating": 8.5
     },
     {
       "id": "p_al1_100",
@@ -1280,11 +1474,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Marco%20Jansen.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Marco%20Jansen.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1954,
+      "oldRating": 8.6
     }
   ],
   "AL2": [
@@ -1295,11 +1491,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vijay%20Shankar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vijay%20Shankar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2521,
+      "oldRating": 7.8
     },
     {
       "id": "p_al2_102",
@@ -1308,11 +1506,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Krunal%20Pandya.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Krunal%20Pandya.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2339,
+      "oldRating": 8.2
     },
     {
       "id": "p_al2_103",
@@ -1321,11 +1521,13 @@
       "role": "All-Rounder",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Axar%20Patel.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Axar%20Patel.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2893,
+      "oldRating": 8.9
     },
     {
       "id": "p_al2_104",
@@ -1334,11 +1536,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shakib%20Al%20Hasan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shakib%20Al%20Hasan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2804,
+      "oldRating": 8.6
     },
     {
       "id": "p_al2_105",
@@ -1347,11 +1551,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sikandar%20Raza.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sikandar%20Raza.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2255,
+      "oldRating": 8.5
     },
     {
       "id": "p_al2_106",
@@ -1360,11 +1566,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohammad%20Nabi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohammad%20Nabi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2458,
+      "oldRating": 8.4
     },
     {
       "id": "p_al2_107",
@@ -1373,11 +1581,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Romario%20Shepherd.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Romario%20Shepherd.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2123,
+      "oldRating": 8.3
     },
     {
       "id": "p_al2_108",
@@ -1386,11 +1596,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Odean%20Smith.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Odean%20Smith.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2460,
+      "oldRating": 8
     },
     {
       "id": "p_al2_109",
@@ -1399,11 +1611,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 7.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Daniel%20Sams.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Daniel%20Sams.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1903,
+      "oldRating": 7.9
     },
     {
       "id": "p_al2_110",
@@ -1412,11 +1626,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jimmy%20Neesham.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jimmy%20Neesham.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1947,
+      "oldRating": 8.2
     }
   ],
   "AL3": [
@@ -1427,11 +1643,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Deepak%20Hooda.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Deepak%20Hooda.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2840,
+      "oldRating": 8.1
     },
     {
       "id": "p_al3_112",
@@ -1440,11 +1658,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shahbaz%20Ahmed.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shahbaz%20Ahmed.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2706,
+      "oldRating": 8
     },
     {
       "id": "p_al3_113",
@@ -1453,11 +1673,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Lalit%20Yadav.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Lalit%20Yadav.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2713,
+      "oldRating": 7.8
     },
     {
       "id": "p_al3_114",
@@ -1466,11 +1688,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/K%20Gowtham.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/K%20Gowtham.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2637,
+      "oldRating": 7.5
     },
     {
       "id": "p_al3_115",
@@ -1479,11 +1703,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajat%20Bhatia.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajat%20Bhatia.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1598,
+      "oldRating": 7.2
     },
     {
       "id": "p_al3_116",
@@ -1492,11 +1718,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ashton%20Agar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ashton%20Agar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2763,
+      "oldRating": 8.1
     },
     {
       "id": "p_al3_117",
@@ -1505,11 +1733,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mitchell%20Santner.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mitchell%20Santner.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2894,
+      "oldRating": 8.3
     },
     {
       "id": "p_al3_118",
@@ -1518,11 +1748,13 @@
       "role": "All-Rounder",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akeal%20Hosein.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akeal%20Hosein.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1967,
+      "oldRating": 8.2
     },
     {
       "id": "p_al3_119",
@@ -1531,11 +1763,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mehidy%20Hasan%20Miraz.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mehidy%20Hasan%20Miraz.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2369,
+      "oldRating": 8.3
     },
     {
       "id": "p_al3_120",
@@ -1544,11 +1778,13 @@
       "role": "All-Rounder",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Michael%20Bracewell.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Michael%20Bracewell.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2566,
+      "oldRating": 8.4
     }
   ],
   "AL4": [
@@ -1559,11 +1795,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Darshan%20Nalkande.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Darshan%20Nalkande.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2323,
+      "oldRating": 8.1
     },
     {
       "id": "p_al4_122",
@@ -1572,11 +1810,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hrithik%20Shokeen.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hrithik%20Shokeen.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2644,
+      "oldRating": 7.9
     },
     {
       "id": "p_al4_123",
@@ -1585,11 +1825,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shams%20Mulani.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shams%20Mulani.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2848,
+      "oldRating": 8
     },
     {
       "id": "p_al4_124",
@@ -1598,11 +1840,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nishant%20Sindhu.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nishant%20Sindhu.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2599,
+      "oldRating": 8.1
     },
     {
       "id": "p_al4_125",
@@ -1611,11 +1855,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshin%20Kulkarni.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshin%20Kulkarni.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2308,
+      "oldRating": 8.2
     },
     {
       "id": "p_al4_126",
@@ -1624,11 +1870,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abid%20Mushtaq.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abid%20Mushtaq.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2749,
+      "oldRating": 7.8
     },
     {
       "id": "p_al4_127",
@@ -1637,11 +1885,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Swapnil%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Swapnil%20Singh.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2087,
+      "oldRating": 7.8
     },
     {
       "id": "p_al4_128",
@@ -1650,11 +1900,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tanush%20Kotian.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tanush%20Kotian.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2824,
+      "oldRating": 8
     },
     {
       "id": "p_al4_129",
@@ -1663,11 +1915,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vivrant%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vivrant%20Sharma.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1814,
+      "oldRating": 8.2
     },
     {
       "id": "p_al4_130",
@@ -1676,11 +1930,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anukul%20Roy.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anukul%20Roy.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2892,
+      "oldRating": 8.1
     }
   ],
   "AL5": [
@@ -1691,11 +1947,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajvardhan%20Hangargekar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajvardhan%20Hangargekar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2861,
+      "oldRating": 8.3
     },
     {
       "id": "p_al5_132",
@@ -1704,11 +1962,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Thakur.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Thakur.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2135,
+      "oldRating": 8.2
     },
     {
       "id": "p_al5_133",
@@ -1717,11 +1977,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohsin%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohsin%20Khan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2740,
+      "oldRating": 8.5
     },
     {
       "id": "p_al5_134",
@@ -1730,11 +1992,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mukesh%20Kumar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mukesh%20Kumar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2391,
+      "oldRating": 8.4
     },
     {
       "id": "p_al5_135",
@@ -1743,11 +2007,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akash%20Madhwal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akash%20Madhwal.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2864,
+      "oldRating": 8.3
     },
     {
       "id": "p_al5_136",
@@ -1756,11 +2022,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1944,
+      "oldRating": 8.3
     },
     {
       "id": "p_al5_137",
@@ -1769,11 +2037,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chetan%20Sakariya.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chetan%20Sakariya.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2463,
+      "oldRating": 8.2
     },
     {
       "id": "p_al5_138",
@@ -1782,11 +2052,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshad%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshad%20Khan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2341,
+      "oldRating": 8
     },
     {
       "id": "p_al5_139",
@@ -1795,11 +2067,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hrithik%20Tyagi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hrithik%20Tyagi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2516,
+      "oldRating": 7.8
     },
     {
       "id": "p_al5_140",
@@ -1808,11 +2082,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prince%20Yadav.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prince%20Yadav.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2526,
+      "oldRating": 7.9
     }
   ],
   "WK1": [
@@ -1823,11 +2099,13 @@
       "role": "Wicketkeeper",
       "basePrice": 1.5,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Quinton%20de%20Kock.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Quinton%20de%20Kock.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3045,
+      "oldRating": 8.8
     },
     {
       "id": "p_wk1_142",
@@ -1836,11 +2114,13 @@
       "role": "Wicketkeeper",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jonny%20Bairstow.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jonny%20Bairstow.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2630,
+      "oldRating": 8.7
     },
     {
       "id": "p_wk1_143",
@@ -1849,11 +2129,13 @@
       "role": "Wicketkeeper",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Phil%20Salt.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Phil%20Salt.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2547,
+      "oldRating": 8.7
     },
     {
       "id": "p_wk1_144",
@@ -1862,11 +2144,13 @@
       "role": "Wicketkeeper",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Josh%20Inglis.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Josh%20Inglis.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2513,
+      "oldRating": 8.6
     },
     {
       "id": "p_wk1_145",
@@ -1875,11 +2159,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahmanullah%20Gurbaz.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahmanullah%20Gurbaz.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2641,
+      "oldRating": 8.4
     },
     {
       "id": "p_wk1_146",
@@ -1888,11 +2174,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KS%20Bharat.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KS%20Bharat.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1727,
+      "oldRating": 7.8
     },
     {
       "id": "p_wk1_147",
@@ -1901,11 +2189,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anuj%20Rawat.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anuj%20Rawat.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2164,
+      "oldRating": 7.6
     },
     {
       "id": "p_wk1_148",
@@ -1914,11 +2204,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abishek%20Porel.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abishek%20Porel.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2711,
+      "oldRating": 8.2
     },
     {
       "id": "p_wk1_149",
@@ -1927,11 +2219,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Aryan%20Juyal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Aryan%20Juyal.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2124,
+      "oldRating": 7.5
     },
     {
       "id": "p_wk1_150",
@@ -1940,11 +2234,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vishnu%20Vinod.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vishnu%20Vinod.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2535,
+      "oldRating": 7.5
     }
   ],
   "WK2": [
@@ -1955,11 +2251,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Wriddhiman%20Saha.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Wriddhiman%20Saha.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2605,
+      "oldRating": 7.8
     },
     {
       "id": "p_wk2_152",
@@ -1968,11 +2266,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dinesh%20Karthik.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dinesh%20Karthik.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2658,
+      "oldRating": 8.2
     },
     {
       "id": "p_wk2_153",
@@ -1981,11 +2281,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sanju%20Samson.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sanju%20Samson.png",
+      "fantasyPoints": 2500,
+      "recentSeasons": 4,
+      "oldRating": 9
     },
     {
       "id": "p_wk2_154",
@@ -1994,11 +2296,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ishan%20Kishan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ishan%20Kishan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2585,
+      "oldRating": 8.7
     },
     {
       "id": "p_wk2_155",
@@ -2007,11 +2311,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nicholas%20Pooran.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nicholas%20Pooran.png",
+      "fantasyPoints": 2100,
+      "recentSeasons": 4,
+      "oldRating": 9.1
     },
     {
       "id": "p_wk2_156",
@@ -2020,11 +2326,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rishabh%20Pant.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rishabh%20Pant.png",
+      "fantasyPoints": 1800,
+      "recentSeasons": 3,
+      "oldRating": 9.2
     },
     {
       "id": "p_wk2_157",
@@ -2033,11 +2341,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KL%20Rahul.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/KL%20Rahul.png",
+      "fantasyPoints": 2600,
+      "recentSeasons": 4,
+      "oldRating": 8.8
     },
     {
       "id": "p_wk2_158",
@@ -2046,11 +2356,13 @@
       "role": "Wicketkeeper",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 9.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Heinrich%20Klaasen.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Heinrich%20Klaasen.png",
+      "fantasyPoints": 1950,
+      "recentSeasons": 2,
+      "oldRating": 9.3
     },
     {
       "id": "p_wk2_159",
@@ -2059,11 +2371,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jitesh%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Jitesh%20Sharma.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2379,
+      "oldRating": 8.4
     },
     {
       "id": "p_wk2_160",
@@ -2072,11 +2386,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prabhsimran%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prabhsimran%20Singh.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2449,
+      "oldRating": 8.3
     }
   ],
   "FA1": [
@@ -2087,11 +2403,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohammed%20Siraj.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohammed%20Siraj.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2675,
+      "oldRating": 8.8
     },
     {
       "id": "p_fa1_162",
@@ -2100,11 +2418,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Bhuvneshwar%20Kumar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Bhuvneshwar%20Kumar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3052,
+      "oldRating": 8.5
     },
     {
       "id": "p_fa1_163",
@@ -2113,11 +2433,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Deepak%20Chahar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Deepak%20Chahar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2858,
+      "oldRating": 8.4
     },
     {
       "id": "p_fa1_164",
@@ -2126,11 +2448,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/T%20Natarajan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/T%20Natarajan.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3028,
+      "oldRating": 8.6
     },
     {
       "id": "p_fa1_165",
@@ -2139,11 +2463,13 @@
       "role": "Bowler",
       "basePrice": 2,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshdeep%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshdeep%20Singh.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2520,
+      "oldRating": 8.8
     },
     {
       "id": "p_fa1_166",
@@ -2152,11 +2478,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Avesh%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Avesh%20Khan.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1974,
+      "oldRating": 8.2
     },
     {
       "id": "p_fa1_167",
@@ -2165,11 +2493,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prasidh%20Krishna.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prasidh%20Krishna.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2070,
+      "oldRating": 8.3
     },
     {
       "id": "p_fa1_168",
@@ -2178,11 +2508,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mukesh%20Kumar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mukesh%20Kumar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2530,
+      "oldRating": 8.4
     },
     {
       "id": "p_fa1_169",
@@ -2191,11 +2523,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Khaleel%20Ahmed.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Khaleel%20Ahmed.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1723,
+      "oldRating": 8.2
     },
     {
       "id": "p_fa1_170",
@@ -2204,11 +2538,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chetan%20Sakariya.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chetan%20Sakariya.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1818,
+      "oldRating": 8.2
     }
   ],
   "FA2": [
@@ -2219,11 +2555,13 @@
       "role": "Bowler",
       "basePrice": 1.5,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Josh%20Hazlewood.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Josh%20Hazlewood.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2999,
+      "oldRating": 8.7
     },
     {
       "id": "p_fa2_172",
@@ -2232,11 +2570,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Lockie%20Ferguson.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Lockie%20Ferguson.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2393,
+      "oldRating": 8.5
     },
     {
       "id": "p_fa2_173",
@@ -2245,11 +2585,13 @@
       "role": "Bowler",
       "basePrice": 1.5,
       "category": "Capped",
-      "rating": 8.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mark%20Wood.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mark%20Wood.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2712,
+      "oldRating": 8.8
     },
     {
       "id": "p_fa2_174",
@@ -2258,11 +2600,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Alzarri%20Joseph.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Alzarri%20Joseph.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2587,
+      "oldRating": 8.6
     },
     {
       "id": "p_fa2_175",
@@ -2271,11 +2615,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Reece%20Topley.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Reece%20Topley.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2039,
+      "oldRating": 8.5
     },
     {
       "id": "p_fa2_176",
@@ -2284,11 +2630,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mustafizur%20Rahman.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mustafizur%20Rahman.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2483,
+      "oldRating": 8.6
     },
     {
       "id": "p_fa2_177",
@@ -2297,11 +2645,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Naveen-ul-Haq.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Naveen-ul-Haq.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1998,
+      "oldRating": 8.4
     },
     {
       "id": "p_fa2_178",
@@ -2310,11 +2660,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Lungi%20Ngidi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Lungi%20Ngidi.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1831,
+      "oldRating": 8.3
     },
     {
       "id": "p_fa2_179",
@@ -2323,11 +2675,13 @@
       "role": "Bowler",
       "basePrice": 1.5,
       "category": "Capped",
-      "rating": 8.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anrich%20Nortje.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Anrich%20Nortje.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2634,
+      "oldRating": 8.7
     },
     {
       "id": "p_fa2_180",
@@ -2336,11 +2690,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Gerald%20Coetzee.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Gerald%20Coetzee.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2870,
+      "oldRating": 8.6
     }
   ],
   "FA3": [
@@ -2351,11 +2707,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Umran%20Malik.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Umran%20Malik.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2661,
+      "oldRating": 8.3
     },
     {
       "id": "p_fa3_182",
@@ -2364,11 +2722,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Umesh%20Yadav.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Umesh%20Yadav.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1734,
+      "oldRating": 7.8
     },
     {
       "id": "p_fa3_183",
@@ -2377,11 +2737,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Navdeep%20Saini.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Navdeep%20Saini.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2203,
+      "oldRating": 7.5
     },
     {
       "id": "p_fa3_184",
@@ -2390,11 +2752,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Dayal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Dayal.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2674,
+      "oldRating": 8.2
     },
     {
       "id": "p_fa3_185",
@@ -2403,11 +2767,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohit%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohit%20Sharma.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1985,
+      "oldRating": 8.3
     },
     {
       "id": "p_fa3_186",
@@ -2416,11 +2782,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1933,
+      "oldRating": 8.3
     },
     {
       "id": "p_fa3_187",
@@ -2429,11 +2797,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akash%20Madhwal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akash%20Madhwal.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2344,
+      "oldRating": 8.3
     },
     {
       "id": "p_fa3_188",
@@ -2442,11 +2812,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arjun%20Tendulkar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arjun%20Tendulkar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2352,
+      "oldRating": 7.6
     },
     {
       "id": "p_fa3_189",
@@ -2455,11 +2827,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rasikh%20Salam.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rasikh%20Salam.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2209,
+      "oldRating": 7.5
     },
     {
       "id": "p_fa3_190",
@@ -2468,11 +2842,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vaibhav%20Arora.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vaibhav%20Arora.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1984,
+      "oldRating": 7.8
     }
   ],
   "SP1": [
@@ -2483,11 +2859,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ravi%20Bishnoi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ravi%20Bishnoi.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2786,
+      "oldRating": 8.5
     },
     {
       "id": "p_sp1_192",
@@ -2496,11 +2874,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Noor%20Ahmad.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Noor%20Ahmad.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2647,
+      "oldRating": 8.4
     },
     {
       "id": "p_sp1_193",
@@ -2509,11 +2889,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Maheesh%20Theekshana.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Maheesh%20Theekshana.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2571,
+      "oldRating": 8.5
     },
     {
       "id": "p_sp1_194",
@@ -2522,11 +2904,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Wanindu%20Hasaranga.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Wanindu%20Hasaranga.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 3190,
+      "oldRating": 8.9
     },
     {
       "id": "p_sp1_195",
@@ -2535,11 +2919,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Adam%20Zampa.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Adam%20Zampa.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2446,
+      "oldRating": 8.6
     },
     {
       "id": "p_sp1_196",
@@ -2548,11 +2934,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tabraiz%20Shamsi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tabraiz%20Shamsi.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1980,
+      "oldRating": 8.5
     },
     {
       "id": "p_sp1_197",
@@ -2561,11 +2949,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Piyush%20Chawla.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Piyush%20Chawla.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2121,
+      "oldRating": 8
     },
     {
       "id": "p_sp1_198",
@@ -2574,11 +2964,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Amit%20Mishra.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Amit%20Mishra.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 2016,
+      "oldRating": 7.8
     },
     {
       "id": "p_sp1_199",
@@ -2587,11 +2979,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Chahar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rahul%20Chahar.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2725,
+      "oldRating": 8.2
     },
     {
       "id": "p_sp1_200",
@@ -2600,11 +2994,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shreyas%20Gopal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shreyas%20Gopal.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1689,
+      "oldRating": 7.8
     }
   ],
   "SP2": [
@@ -2615,11 +3011,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Murugan%20Ashwin.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Murugan%20Ashwin.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2418,
+      "oldRating": 7.8
     },
     {
       "id": "p_sp2_202",
@@ -2628,11 +3026,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mayank%20Markande.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mayank%20Markande.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2755,
+      "oldRating": 8
     },
     {
       "id": "p_sp2_203",
@@ -2641,11 +3041,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Suyash%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Suyash%20Sharma.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2907,
+      "oldRating": 8.3
     },
     {
       "id": "p_sp2_204",
@@ -2654,11 +3056,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kumar%20Kartikeya.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kumar%20Kartikeya.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2890,
+      "oldRating": 8.1
     },
     {
       "id": "p_sp2_205",
@@ -2667,11 +3071,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shahbaz%20Ahmed.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shahbaz%20Ahmed.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2497,
+      "oldRating": 8
     },
     {
       "id": "p_sp2_206",
@@ -2680,11 +3086,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Washington%20Sundar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Washington%20Sundar.png",
+      "recentSeasons": 3,
+      "fantasyPoints": 1944,
+      "oldRating": 8.3
     },
     {
       "id": "p_sp2_207",
@@ -2693,11 +3101,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/R%20Sai%20Kishore.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/R%20Sai%20Kishore.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2658,
+      "oldRating": 8.2
     },
     {
       "id": "p_sp2_208",
@@ -2706,11 +3116,13 @@
       "role": "Bowler",
       "basePrice": 0.75,
       "category": "Capped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tanveer%20Sangha.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tanveer%20Sangha.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2405,
+      "oldRating": 8.1
     },
     {
       "id": "p_sp2_209",
@@ -2719,11 +3131,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mujeeb%20Ur%20Rahman.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mujeeb%20Ur%20Rahman.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2854,
+      "oldRating": 8.4
     },
     {
       "id": "p_sp2_210",
@@ -2732,11 +3146,13 @@
       "role": "Bowler",
       "basePrice": 1,
       "category": "Capped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Adil%20Rashid.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Adil%20Rashid.png",
+      "recentSeasons": 4,
+      "fantasyPoints": 2694,
+      "oldRating": 8.5
     }
   ],
   "UBA": [
@@ -2747,11 +3163,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ayush%20Badoni.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ayush%20Badoni.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1324,
+      "oldRating": 8.2
     },
     {
       "id": "p_uba_212",
@@ -2760,11 +3178,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dhruv%20Jurel.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Dhruv%20Jurel.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 708,
+      "oldRating": 8.5
     },
     {
       "id": "p_uba_213",
@@ -2773,11 +3193,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prabhsimran%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Prabhsimran%20Singh.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1336,
+      "oldRating": 8.3
     },
     {
       "id": "p_uba_214",
@@ -2786,11 +3208,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nehal%20Wadhera.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nehal%20Wadhera.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1382,
+      "oldRating": 8.2
     },
     {
       "id": "p_uba_215",
@@ -2799,11 +3223,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Naman%20Dhir.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Naman%20Dhir.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1378,
+      "oldRating": 8.2
     },
     {
       "id": "p_uba_216",
@@ -2812,11 +3238,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ashutosh%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Ashutosh%20Sharma.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1413,
+      "oldRating": 8.3
     },
     {
       "id": "p_uba_217",
@@ -2825,11 +3253,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sameer%20Rizvi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Sameer%20Rizvi.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1236,
+      "oldRating": 8
     },
     {
       "id": "p_uba_218",
@@ -2838,11 +3268,13 @@
       "role": "Wicketkeeper",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abishek%20Porel.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Abishek%20Porel.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1287,
+      "oldRating": 8.2
     },
     {
       "id": "p_uba_219",
@@ -2851,11 +3283,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Angkrish%20Raghuvanshi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Angkrish%20Raghuvanshi.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1428,
+      "oldRating": 8.1
     },
     {
       "id": "p_uba_220",
@@ -2864,11 +3298,13 @@
       "role": "Batter",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 7.7,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Dhull.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Dhull.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1377,
+      "oldRating": 7.7
     }
   ],
   "UAL": [
@@ -2879,11 +3315,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajvardhan%20Hangargekar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Rajvardhan%20Hangargekar.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 651,
+      "oldRating": 8.3
     },
     {
       "id": "p_ual_222",
@@ -2892,11 +3330,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nishant%20Sindhu.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Nishant%20Sindhu.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 692,
+      "oldRating": 8.1
     },
     {
       "id": "p_ual_223",
@@ -2905,11 +3345,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshin%20Kulkarni.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshin%20Kulkarni.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 604,
+      "oldRating": 8.2
     },
     {
       "id": "p_ual_224",
@@ -2918,11 +3360,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Musheer%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Musheer%20Khan.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1416,
+      "oldRating": 8.3
     },
     {
       "id": "p_ual_225",
@@ -2931,11 +3375,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shams%20Mulani.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Shams%20Mulani.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 633,
+      "oldRating": 8
     },
     {
       "id": "p_ual_226",
@@ -2944,11 +3390,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 7.9,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hrithik%20Shokeen.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Hrithik%20Shokeen.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1191,
+      "oldRating": 7.9
     },
     {
       "id": "p_ual_227",
@@ -2957,11 +3405,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.1,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Darshan%20Nalkande.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Darshan%20Nalkande.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 708,
+      "oldRating": 8.1
     },
     {
       "id": "p_ual_228",
@@ -2970,11 +3420,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Swapnil%20Singh.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Swapnil%20Singh.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1284,
+      "oldRating": 7.8
     },
     {
       "id": "p_ual_229",
@@ -2983,11 +3435,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tanush%20Kotian.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Tanush%20Kotian.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1202,
+      "oldRating": 8
     },
     {
       "id": "p_ual_230",
@@ -2996,11 +3450,13 @@
       "role": "All-Rounder",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vivrant%20Sharma.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vivrant%20Sharma.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 711,
+      "oldRating": 8.2
     }
   ],
   "UFA": [
@@ -3011,11 +3467,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.6,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mayank%20Yadav.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mayank%20Yadav.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 636,
+      "oldRating": 8.6
     },
     {
       "id": "p_ufa_232",
@@ -3024,11 +3482,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Harshit%20Rana.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Harshit%20Rana.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 711,
+      "oldRating": 8.4
     },
     {
       "id": "p_ufa_233",
@@ -3037,11 +3497,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Thakur.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Yash%20Thakur.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 655,
+      "oldRating": 8.2
     },
     {
       "id": "p_ufa_234",
@@ -3050,11 +3512,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.5,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohsin%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mohsin%20Khan.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 735,
+      "oldRating": 8.5
     },
     {
       "id": "p_ufa_235",
@@ -3063,11 +3527,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.4,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mukesh%20Kumar.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Mukesh%20Kumar.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 604,
+      "oldRating": 8.4
     },
     {
       "id": "p_ufa_236",
@@ -3076,11 +3542,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akash%20Madhwal.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Akash%20Madhwal.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1297,
+      "oldRating": 8.3
     },
     {
       "id": "p_ufa_237",
@@ -3089,11 +3557,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.3,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kartik%20Tyagi.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1388,
+      "oldRating": 8.3
     },
     {
       "id": "p_ufa_238",
@@ -3102,11 +3572,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8.2,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chetan%20Sakariya.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Chetan%20Sakariya.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 732,
+      "oldRating": 8.2
     },
     {
       "id": "p_ufa_239",
@@ -3115,11 +3587,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshad%20Khan.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Arshad%20Khan.png",
+      "recentSeasons": 1,
+      "fantasyPoints": 614,
+      "oldRating": 8
     },
     {
       "id": "p_ufa_240",
@@ -3128,11 +3602,13 @@
       "role": "Bowler",
       "basePrice": 0.5,
       "category": "Uncapped",
-      "rating": 7.8,
       "status": "available",
       "soldPrice": null,
       "team": null,
-      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vaibhav%20Arora.png"
+      "image": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Vaibhav%20Arora.png",
+      "recentSeasons": 2,
+      "fantasyPoints": 1246,
+      "oldRating": 7.8
     }
   ]
 }
