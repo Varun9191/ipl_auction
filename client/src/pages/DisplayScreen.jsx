@@ -83,22 +83,14 @@ export default function DisplayScreen() {
             </div>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <p style={{ fontSize: '1.5rem', color: 'var(--text-secondary)' }}>Season Avg:</p>
-              <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
-                <span style={{ color: '#fbbf24', fontSize: '2.5rem', fontWeight: '900' }}>
-                  {activePlayer.recentSeasons > 0 ? Math.round(activePlayer.fantasyPoints / activePlayer.recentSeasons) : 0}
-                </span>
-              </div>
-            </div>
-
+          <div style={{ display: 'flex', alignItems: 'center' }}>
             {activePlayer.pointsPerMatch && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', borderLeft: '1px solid rgba(255,255,255,0.1)', paddingLeft: '2rem' }}>
-                <p style={{ fontSize: '1.5rem', color: 'var(--text-secondary)' }}>Match Avg:</p>
-                <span style={{ color: '#10b981', fontSize: '2.5rem', fontWeight: '900' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+                <p style={{ fontSize: '1.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '2px' }}>Fantasy Pts:</p>
+                <span style={{ color: '#10b981', fontSize: '3.5rem', fontWeight: '900' }}>
                   {activePlayer.pointsPerMatch}
                 </span>
+                <span style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginTop: '0.5rem' }}>per match</span>
               </div>
             )}
           </div>
