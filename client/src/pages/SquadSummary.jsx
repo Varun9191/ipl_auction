@@ -110,7 +110,7 @@ export default function SquadSummary({ embedded = false }) {
               {/* Summary Stats */}
               {team.players.length > 0 && (
                   <div style={{ padding: '1rem 1.5rem', background: 'rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.05)', display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem' }}>
-                    <span style={{ color: 'var(--text-secondary)' }}>Total Pts (21-25): {team.players.reduce((sum, p) => sum + (p.fantasyPoints || 0), 0)}</span>
+                    <span style={{ color: 'var(--text-secondary)' }}>Total Squad Pts/Match: {team.players.reduce((sum, p) => sum + (p.pointsPerMatch || 0), 0).toFixed(1)}</span>
                     <span style={{ color: 'var(--text-secondary)' }}>Avg Pts/Match: {(team.players.reduce((sum, p) => sum + (p.pointsPerMatch || 0), 0) / team.players.length).toFixed(1)}</span>
                   </div>
               )}
