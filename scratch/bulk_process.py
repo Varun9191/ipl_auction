@@ -68,6 +68,7 @@ def parse_bulk_file(file_path):
                 "image": generate_image_url(name),
                 "fantasyPoints": int(points * 14 * 4), # UI consistency
                 "pointsPerMatch": points,
+                "recentSeasons": 4, # Standard for 2021-2024 (4 seasons)
                 "category": "Capped" if "U" not in set_name else "Uncapped"
             }
             
