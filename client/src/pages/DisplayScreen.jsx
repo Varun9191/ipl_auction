@@ -40,7 +40,7 @@ export default function DisplayScreen() {
   if (!activePlayer) {
     return (
       <div className="flex-center" style={{ height: '100vh', flexDirection: 'column' }}>
-        <h1 className="text-gradient" style={{ fontSize: '5rem', marginBottom: '1rem', textAlign: 'center' }}>IPL AUCTION 2025</h1>
+        <h1 className="text-gradient" style={{ fontSize: '5rem', marginBottom: '1rem', textAlign: 'center' }}>IPL AUCTION</h1>
         <p style={{ fontSize: '2rem', color: 'var(--text-secondary)' }}>Waiting for auctioneer...</p>
       </div>
     );

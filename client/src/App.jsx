@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <div className="flex-center" style={{ height: '100vh', flexDirection: 'column', gap: '2rem' }}>
-      <h1 className="text-gradient" style={{ fontSize: '5rem', marginBottom: '1rem' }}>IPL AUCTION 2025</h1>
+      <h1 className="text-gradient" style={{ fontSize: '5rem', marginBottom: '1rem' }}>IPL AUCTION</h1>
       
         <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '2rem' }}>
           <Link to="/display" className="btn btn-primary" style={{ textDecoration: 'none', padding: '1rem 2rem', fontSize: '1.2rem' }}>
