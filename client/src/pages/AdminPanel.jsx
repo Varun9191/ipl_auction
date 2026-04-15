@@ -103,19 +103,27 @@ export default function AdminPanel() {
           <Gavel /> Auctioneer Control Panel
         </h1>
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          {state.lastSale && (
-            <button 
-              className="btn btn-secondary animate-pulse" 
-              style={{ background: 'var(--sold-color)', borderColor: 'var(--sold-color)', color: 'white', display: 'flex', alignItems: 'center', gap: '0.5rem' }} 
-              onClick={() => {
-                if (window.confirm("⏪ Undo the last sale and refund the team?")) {
-                  socket.emit('update-player', { action: 'UNDO_SALE' });
-                }
-              }}
-            >
-              <RotateCcw size={18} /> Undo Last Sale
-            </button>
-          )}
+          <button 
+            className={`btn ${!state.lastSale ? 'disabled' : 'animate-pulse'}`} 
+            style={{ 
+              background: state.lastSale ? 'var(--sold-color)' : 'rgba(255,255,255,0.05)', 
+              borderColor: state.lastSale ? 'var(--sold-color)' : 'rgba(255,255,255,0.1)', 
+              color: state.lastSale ? 'white' : 'rgba(255,255,255,0.3)', 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.5rem',
+              cursor: state.lastSale ? 'pointer' : 'not-allowed',
+              opacity: state.lastSale ? 1 : 0.5
+            }} 
+            disabled={!state.lastSale}
+            onClick={() => {
+              if (window.confirm("⏪ Undo the last action (Sold/Unsold) and revert the player state?")) {
+                socket.emit('update-player', { action: 'UNDO_SALE' });
+              }
+            }}
+          >
+            <RotateCcw size={18} /> Undo Last Action
+          </button>
           <button className="btn btn-secondary" style={{ background: '#dc3545', borderColor: '#dc3545', display: 'flex', alignItems: 'center', gap: '0.5rem' }} onClick={handleReset}>
             <RotateCcw size={18} /> Restart Auction
           </button>

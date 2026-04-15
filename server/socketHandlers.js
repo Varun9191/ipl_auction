@@ -67,8 +67,8 @@ function registerHandlers(io, socket) {
             image: player.image
           });
 
-          // Track for UNDO
           state.lastSale = {
+            type: 'sold',
             setId: payload.setId,
             playerId: payload.playerId,
             teamId: payload.teamId,
@@ -83,30 +83,38 @@ function registerHandlers(io, socket) {
 
       case 'UNDO_SALE': {
         if (!state.lastSale) return;
-        const { setId, playerId, teamId, soldPrice } = state.lastSale;
+        const { type, setId, playerId, teamId, soldPrice } = state.lastSale;
         const set    = players[setId];
         const player = set?.find(p => p.id === playerId);
-        const team   = teams.find(t => t.id === teamId);
 
-        if (player && team) {
-          // Revert player status
-          player.status = 'available';
-          player.soldPrice = null;
-          player.team = null;
+        if (player) {
+          if (type === 'sold') {
+            const team = teams.find(t => t.id === teamId);
+            if (team) {
+              // Revert player status
+              player.status = 'available';
+              player.soldPrice = null;
+              player.team = null;
 
-          // Refund team
-          team.budget += soldPrice;
-          
-          // Remove from team players list
-          team.players = team.players.filter(p => p.id !== playerId);
-          
+              // Refund team
+              team.budget += soldPrice;
+              
+              // Remove from team players list
+              team.players = team.players.filter(p => p.id !== playerId);
+              
+              console.log(`⏪ Undo Sold successful: ${player.name} returned from ${team.name}`);
+            }
+          } else if (type === 'unsold') {
+            player.status = 'available';
+            console.log(`⏪ Undo Unsold successful: ${player.name} is available again`);
+          }
+
           // Set back as current player for convenience
           state.currentSet = setId;
           state.currentPlayer = playerId;
           
           state.lastSale = null;
           event = 'SALE_UNDONE';
-          console.log(`⏪ Undo successful: ${player.name} returned from ${team.name}`);
         }
         break;
       }
@@ -116,10 +124,16 @@ function registerHandlers(io, socket) {
         const playerU = setU?.find(p => p.id === payload.playerId);
         if (playerU) {
           playerU.status = 'unsold';
+          
+          // Track for UNDO
+          state.lastSale = {
+            type: 'unsold',
+            setId: payload.setId,
+            playerId: payload.playerId
+          };
         }
         state.currentSet    = payload.setId;
         state.currentPlayer = payload.playerId;
-        state.lastSale      = null; // Clear undo if we mark someone as unsold
         event = 'PLAYER_UNSOLD';
         break;
       }
