@@ -93,7 +93,7 @@ export default function SquadSummary({ embedded = false }) {
                             {p.name} 
                             {p.country && p.country !== 'India' && <span title={p.country} style={{ cursor: 'help' }}>✈️</span>}
                             <span style={{ fontSize: '0.75rem', background: 'rgba(251, 191, 36, 0.1)', color: '#fbbf24', padding: '0.1rem 0.4rem', borderRadius: '4px', border: '1px solid rgba(251, 191, 36, 0.2)' }}>
-                              Pts: {p.recentSeasons > 0 ? Math.round(p.fantasyPoints / p.recentSeasons) : 0}
+                              Pts: {p.pointsPerMatch || 0}
                             </span>
                           </p>
                           <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{p.role}</p>
@@ -111,7 +111,7 @@ export default function SquadSummary({ embedded = false }) {
               {team.players.length > 0 && (
                   <div style={{ padding: '1rem 1.5rem', background: 'rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.05)', display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem' }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Total Pts (21-25): {team.players.reduce((sum, p) => sum + (p.fantasyPoints || 0), 0)}</span>
-                    <span style={{ color: 'var(--text-secondary)' }}>Avg Pts/Season: {(team.players.reduce((sum, p) => sum + (p.recentSeasons > 0 ? p.fantasyPoints / p.recentSeasons : 0), 0) / team.players.length).toFixed(0)}</span>
+                    <span style={{ color: 'var(--text-secondary)' }}>Avg Pts/Match: {(team.players.reduce((sum, p) => sum + (p.pointsPerMatch || 0), 0) / team.players.length).toFixed(1)}</span>
                   </div>
               )}
 
