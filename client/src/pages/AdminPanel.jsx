@@ -130,7 +130,7 @@ export default function AdminPanel() {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'minmax(400px, 1fr) minmax(350px, 1fr) 340px', gap: '2rem' }}>
         
         {/* Left Col: Setup & Auctioning */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -204,7 +204,7 @@ export default function AdminPanel() {
           )}
         </div>
 
-        {/* Right Col: Requests & Info */}
+        {/* Middle Col: Requests & Unsold Pool */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           <div className="glass-panel" style={{ padding: '1.5rem' }}>
             <h3 style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -233,7 +233,6 @@ export default function AdminPanel() {
             )}
           </div>
 
-          {/* Unsold Pool Section for Re-Auction */}
           <div className="glass-panel" style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
             <h3 style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--unsold-color)' }}>
               <UserX /> Unsold Pool (Re-Auction)
@@ -273,6 +272,31 @@ export default function AdminPanel() {
                       </div>
                     ))
                 )}
+            </div>
+          </div>
+        </div>
+
+        {/* Third Col: Team Purses */}
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <div className="glass-panel" style={{ padding: '1.5rem', border: '1px solid rgba(255,255,255,0.1)' }}>
+            <h3 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <RotateCcw size={20} className="text-accent" /> Live Team Purses
+            </h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {[...teams].sort((a,b) => b.budget - a.budget).map(team => (
+                <div key={team.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.75rem', background: 'rgba(255,255,255,0.03)', borderRadius: '8px', borderLeft: `4px solid ${team.color}` }}>
+                  <div>
+                    <div style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>{team.name}</div>
+                    <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>Squad: {team.players.length}</div>
+                  </div>
+                  <div style={{ textAlign: 'right' }}>
+                    <div style={{ fontSize: '1.2rem', fontWeight: 900, color: team.budget < 10 ? 'var(--unsold-color)' : 'white' }}>
+                      {team.budget.toFixed(2)}
+                      <span style={{ fontSize: '0.7rem', fontWeight: 'normal', color: 'var(--text-secondary)', marginLeft: '0.1rem' }}>Cr</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
