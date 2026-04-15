@@ -80,8 +80,45 @@ const writeData = async (fileName, data) => {
     }
 };
 
+const syncSoldPlayers = async () => {
+    console.log('🔄 Checking for sold players with missing point data...');
+    const playersData = cache['players.json'];
+    const teams = cache['teams.json'];
+
+    if (!playersData || !teams) return;
+
+    const playersMap = {};
+    for (const setId in playersData) {
+        playersData[setId].forEach(p => {
+            playersMap[p.id] = p;
+        });
+    }
+
+    let updated = false;
+    for (const team of teams) {
+        for (const p of team.players) {
+            const original = playersMap[p.id];
+            if (original && (p.fantasyPoints === undefined || p.pointsPerMatch === undefined)) {
+                console.log(`   ✅ Restoring points for ${p.name} in ${team.name}`);
+                p.fantasyPoints = original.fantasyPoints;
+                p.pointsPerMatch = original.pointsPerMatch;
+                p.recentSeasons = original.recentSeasons;
+                updated = true;
+            }
+        }
+    }
+
+    if (updated) {
+        console.log('💾 Persisting fixed team data...');
+        await writeData('teams.json', teams);
+    } else {
+        console.log('✨ No data inconsistencies found.');
+    }
+};
+
 module.exports = {
     readData,
     writeData,
-    initCache
+    initCache,
+    syncSoldPlayers
 };

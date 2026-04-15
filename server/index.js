@@ -5,11 +5,12 @@ const fs      = require('fs');
 const { Server } = require('socket.io');
 const cors    = require('cors');
 const { registerHandlers } = require('./socketHandlers');
-const { initCache } = require('./dataManager');
+const { initCache, syncSoldPlayers } = require('./dataManager');
 
 // Pre-load data into memory
 (async () => {
     await initCache();
+    await syncSoldPlayers();
 })();
 
 const app    = express();

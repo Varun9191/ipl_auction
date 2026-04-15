@@ -61,10 +61,15 @@ function registerHandlers(io, socket) {
           player.team      = payload.teamId;
           team.budget     -= payload.soldPrice;
           team.players.push({
-            id: player.id, name: player.name,
-            role: player.role, soldPrice: payload.soldPrice,
-            rating: player.rating, country: player.country,
-            image: player.image
+            id: player.id, 
+            name: player.name,
+            role: player.role, 
+            soldPrice: payload.soldPrice,
+            country: player.country,
+            image: player.image,
+            fantasyPoints: player.fantasyPoints,
+            pointsPerMatch: player.pointsPerMatch,
+            recentSeasons: player.recentSeasons
           });
 
           state.lastSale = {
